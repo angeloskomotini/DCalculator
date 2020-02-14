@@ -9,8 +9,6 @@
 import Foundation
 
 struct DCalculatorModel{
-    var result:String?
-    var base:String?
     var currency=[String]()
     var rate=[String]()
 }

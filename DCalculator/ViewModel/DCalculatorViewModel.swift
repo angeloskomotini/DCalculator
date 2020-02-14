@@ -16,27 +16,12 @@ class DCalculatorViewModel:DCalculatorRatesDelegate{
     
     private var calculator = DCalculatorModel()
     
-    var result:String{
-        return calculator.result!
-    }
-    
-    var base:String{
-        return calculator.base!
-    }
-    
     var currency:[String]{
         return calculator.currency
     }
     
     var rate:[String]{
            return calculator.rate
-    }
-    func updateResult(result:String){
-        calculator.result = result
-    }
-    
-    func updateBase(base:String){
-        calculator.base = base
     }
     
     func updateCurrency(currency:[String]){
